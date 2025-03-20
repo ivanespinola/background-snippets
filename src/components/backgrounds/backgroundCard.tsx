@@ -29,8 +29,8 @@ export function BackgroundCard({ background, onSelect }: BackgroundCardProps) {
             size="sm"
             variant="secondary"
             className="bg-white/90 hover:bg-white/80 cursor-pointer"
-            onClick={(e) => {
-              e.stopPropagation()
+            onClick={(event) => {
+              event.stopPropagation()
               handleCopy()
             }}
           >
@@ -45,8 +45,8 @@ export function BackgroundCard({ background, onSelect }: BackgroundCardProps) {
             size="sm"
             variant="outline"
             className="bg-white/90 hover:bg-white/80 cursor-pointer"
-            onClick={(e) => {
-              e.stopPropagation()
+            onClick={(event) => {
+              event.stopPropagation()
               onSelect(background)
             }}
           >
