@@ -3,7 +3,8 @@ import { Background } from "@/types/types"
 export const defaultBackground: Background = {
   id: 0,
   name: "Default",
-  className: "bg-gradient-to-r from-slate-900 via-purple-900 to-slate-900",
+  className:
+    "bg-gradient-to-r from-slate-950 via-slate-900 to-slate-950 relative overflow-hidden before:absolute before:inset-0 before:bg-[linear-gradient(to_right,#ffffff_1px,transparent_1px),linear-gradient(to_bottom,#ffffff_1px,transparent_1px),radial-gradient(circle,#ffffff_1px,transparent_1px)] before:bg-[size:4rem_4rem,4rem_4rem,2rem_2rem] before:opacity-5 before:content-['']",
   type: "gradient",
 }
 
@@ -107,75 +108,87 @@ export const backgrounds: Background[] = [
   {
     id: 20,
     name: "Pastel Dream",
-    className: "bg-gradient-to-r from-pink-200 via-purple-200 to-blue-200",
+    className:
+      "bg-gradient-to-r from-pink-300 via-purple-300 to-blue-300 relative overflow-hidden before:absolute before:inset-0 before:bg-[linear-gradient(to_right,#ffffff_1px,transparent_1px),linear-gradient(to_bottom,#ffffff_1px,transparent_1px),radial-gradient(circle,#ffffff_1px,transparent_1px)] before:bg-[size:4rem_4rem,4rem_4rem,2rem_2rem] before:opacity-15 before:content-['']",
     type: "gradient",
   },
   {
     id: 21,
     name: "Soft Sunrise",
-    className: "bg-gradient-to-r from-yellow-100 via-pink-100 to-orange-100",
+    className:
+      "bg-gradient-to-r from-yellow-200 via-pink-200 to-orange-200 relative overflow-hidden before:absolute before:inset-0 before:bg-[linear-gradient(to_right,#ffffff_1px,transparent_1px),linear-gradient(to_bottom,#ffffff_1px,transparent_1px),radial-gradient(circle,#ffffff_1px,transparent_1px)] before:bg-[size:4rem_4rem,4rem_4rem,2rem_2rem] before:opacity-15 before:content-['']",
     type: "gradient",
   },
   {
     id: 22,
     name: "Mint Breeze",
-    className: "bg-gradient-to-r from-green-100 via-teal-100 to-blue-100",
+    className:
+      "bg-gradient-to-r from-green-200 via-teal-200 to-blue-200 relative overflow-hidden before:absolute before:inset-0 before:bg-[linear-gradient(to_right,#ffffff_1px,transparent_1px),linear-gradient(to_bottom,#ffffff_1px,transparent_1px),radial-gradient(circle,#ffffff_1px,transparent_1px)] before:bg-[size:4rem_4rem,4rem_4rem,2rem_2rem] before:opacity-15 before:content-['']",
     type: "gradient",
   },
   {
     id: 23,
     name: "Peach Blossom",
-    className: "bg-gradient-to-r from-rose-100 via-amber-100 to-yellow-100",
+    className:
+      "bg-gradient-to-r from-rose-200 via-amber-200 to-yellow-200 relative overflow-hidden before:absolute before:inset-0 before:bg-[linear-gradient(to_right,#ffffff_1px,transparent_1px),linear-gradient(to_bottom,#ffffff_1px,transparent_1px),radial-gradient(circle,#ffffff_1px,transparent_1px)] before:bg-[size:4rem_4rem,4rem_4rem,2rem_2rem] before:opacity-15 before:content-['']",
     type: "gradient",
   },
   // Gradientes con temas naturales
   {
     id: 24,
     name: "Amanecer Suave",
-    className: "bg-gradient-to-tr from-pink-200 via-orange-200 to-yellow-100",
+    className:
+      "bg-gradient-to-tr from-pink-300 via-orange-300 to-yellow-200 relative overflow-hidden before:absolute before:inset-0 before:bg-[linear-gradient(to_right,#ffffff_1px,transparent_1px),linear-gradient(to_bottom,#ffffff_1px,transparent_1px),radial-gradient(circle,#ffffff_1px,transparent_1px)] before:bg-[size:4rem_4rem,4rem_4rem,2rem_2rem] before:opacity-15 before:content-['']",
     type: "gradient",
   },
   {
     id: 25,
     name: "Atardecer en la Playa",
-    className: "bg-gradient-to-bl from-blue-300 via-purple-300 to-orange-300",
+    className:
+      "bg-gradient-to-bl from-blue-400 via-purple-400 to-orange-400 relative overflow-hidden before:absolute before:inset-0 before:bg-[linear-gradient(to_right,#ffffff_1px,transparent_1px),linear-gradient(to_bottom,#ffffff_1px,transparent_1px),radial-gradient(circle,#ffffff_1px,transparent_1px)] before:bg-[size:4rem_4rem,4rem_4rem,2rem_2rem] before:opacity-15 before:content-['']",
     type: "gradient",
   },
   {
     id: 26,
     name: "Bosque Primaveral",
-    className: "bg-gradient-to-br from-green-200 via-emerald-100 to-sky-200",
+    className:
+      "bg-gradient-to-br from-green-300 via-emerald-200 to-sky-300 relative overflow-hidden before:absolute before:inset-0 before:bg-[linear-gradient(to_right,#ffffff_1px,transparent_1px),linear-gradient(to_bottom,#ffffff_1px,transparent_1px),radial-gradient(circle,#ffffff_1px,transparent_1px)] before:bg-[size:4rem_4rem,4rem_4rem,2rem_2rem] before:opacity-15 before:content-['']",
     type: "gradient",
   },
   {
     id: 27,
     name: "Lavanda en Flor",
-    className: "bg-gradient-to-tl from-purple-300 via-violet-200 to-indigo-100",
+    className:
+      "bg-gradient-to-tl from-purple-400 via-violet-300 to-indigo-200 relative overflow-hidden before:absolute before:inset-0 before:bg-[linear-gradient(to_right,#ffffff_1px,transparent_1px),linear-gradient(to_bottom,#ffffff_1px,transparent_1px),radial-gradient(circle,#ffffff_1px,transparent_1px)] before:bg-[size:4rem_4rem,4rem_4rem,2rem_2rem] before:opacity-15 before:content-['']",
     type: "gradient",
   },
   // Gradientes con temas de dulces
   {
     id: 28,
     name: "Algodón de Azúcar",
-    className: "bg-gradient-to-br from-pink-300 via-blue-200 to-purple-100",
+    className:
+      "bg-gradient-to-br from-pink-400 via-blue-300 to-purple-200 relative overflow-hidden before:absolute before:inset-0 before:bg-[linear-gradient(to_right,#ffffff_1px,transparent_1px),linear-gradient(to_bottom,#ffffff_1px,transparent_1px),radial-gradient(circle,#ffffff_1px,transparent_1px)] before:bg-[size:4rem_4rem,4rem_4rem,2rem_2rem] before:opacity-15 before:content-['']",
     type: "gradient",
   },
   {
     id: 29,
     name: "Helado de Fresa",
-    className: "bg-gradient-to-bl from-red-200 via-rose-300 to-pink-100",
+    className:
+      "bg-gradient-to-bl from-red-300 via-rose-400 to-pink-200 relative overflow-hidden before:absolute before:inset-0 before:bg-[linear-gradient(to_right,#ffffff_1px,transparent_1px),linear-gradient(to_bottom,#ffffff_1px,transparent_1px),radial-gradient(circle,#ffffff_1px,transparent_1px)] before:bg-[size:4rem_4rem,4rem_4rem,2rem_2rem] before:opacity-15 before:content-['']",
     type: "gradient",
   },
   {
     id: 30,
     name: "Caramelo de Menta",
-    className: "bg-gradient-to-tr from-emerald-200 via-teal-100 to-cyan-200",
+    className:
+      "bg-gradient-to-tr from-emerald-300 via-teal-200 to-cyan-300 relative overflow-hidden before:absolute before:inset-0 before:bg-[linear-gradient(to_right,#ffffff_1px,transparent_1px),linear-gradient(to_bottom,#ffffff_1px,transparent_1px),radial-gradient(circle,#ffffff_1px,transparent_1px)] before:bg-[size:4rem_4rem,4rem_4rem,2rem_2rem] before:opacity-15 before:content-['']",
     type: "gradient",
   },
   {
     id: 31,
     name: "Chicle",
-    className: "bg-gradient-to-tl from-fuchsia-300 via-pink-300 to-purple-200",
+    className:
+      "bg-gradient-to-tl from-fuchsia-400 via-pink-400 to-purple-300 relative overflow-hidden before:absolute before:inset-0 before:bg-[linear-gradient(to_right,#ffffff_1px,transparent_1px),linear-gradient(to_bottom,#ffffff_1px,transparent_1px),radial-gradient(circle,#ffffff_1px,transparent_1px)] before:bg-[size:4rem_4rem,4rem_4rem,2rem_2rem] before:opacity-15 before:content-['']",
     type: "gradient",
   },
   // Gradientes metálicos suaves

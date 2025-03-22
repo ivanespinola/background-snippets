@@ -5,7 +5,7 @@ import { RotateCcw } from "lucide-react"
 import { BackgroundGrid } from "@/components/backgrounds/backgroundGrid"
 import { backgrounds, defaultBackground } from "@/constants/backgrounds"
 import { Background } from "@/types/types"
-import Header from "@/components/header"
+import HeroSection from "@/components/hero-section"
 
 export default function Home() {
   const [activeBackground, setActiveBackground] =
@@ -17,35 +17,11 @@ export default function Home() {
 
   return (
     <div
-      className={`min-h-screen p-8 transition-all duration-500 relative ${activeBackground.className}`}
+      className={`min-h-screen transition-all duration-500 relative pb-32 ${activeBackground.className}`}
       role="main"
     >
-      <Header />
-      <div className="max-w-7xl mx-auto relative z-10">
-        <div
-          className="mb-12 text-center"
-          role="region"
-          aria-label="Main content"
-        >
-          <div
-            className="backdrop-blur-lg bg-black/40 p-6 rounded-xl shadow-lg border border-white/30 inline-block"
-            role="article"
-          >
-            <h1
-              className="text-5xl md:text-6xl font-bold mb-4 text-white drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]"
-              aria-label="Project title"
-            >
-              Background Snippets
-            </h1>
-            <p
-              className="text-lg font-bold text-white/90 drop-shadow-[0_1px_3px_rgba(0,0,0,0.9)] mt-4 max-w-2xl mx-auto"
-              aria-describedby="project-description"
-            >
-              Ready to use, simply copy and paste into your next project. All
-              snippets crafted with Tailwind CSS
-            </p>
-          </div>
-        </div>
+      <HeroSection />
+      <div className="max-w-7xl mx-auto relative z-10 px-6 mt-4">
         <div className="flex justify-center mb-8">
           <Button
             onClick={handleReset}
