@@ -1,5 +1,5 @@
 # Background Snippets
-![Background Snippets](public/background-snippets.PNG)
+![Background Snippets](public/background-snippets.png)
 
 ## Description
 
