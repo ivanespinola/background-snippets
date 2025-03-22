@@ -1,13 +1,46 @@
-## Background Snippets
-![Background Snippets](public/background-snippets.png)
+# Background Snippets
+![Background Snippets](public/background-snippets.PNG)
 
 ## Description
 
-Ready to use, simply copy and paste into your next project. All snippets crafted with Tailwind CSS.
+Background Snippets is a web project that provides a collection of background designs that users can copy and use in their projects. It features a variety of aesthetic and animated backgrounds built with Tailwind CSS and optimized for easy integration.
+
+## Features
+
+- A collection of beautiful background snippets
+
+- Copy code functionality for easy use
+
+- Optimized for responsiveness with Tailwind CSS
+
+## Technologies Used
+
+- Next.js – React framework for server-side rendering and static site generation
+
+- TypeScript – Strongly typed JavaScript
+
+- ShadCN/UI – Modern UI components
+
+- Framer Motion – Animation library
+
+- Tailwind CSS – Utility-first CSS framework
+
+- Lucide Icons – Open-source icon set
+
+- Sonner – Notification library
 
 ## Getting Started
 
-First, run the development server:
+Clone this repository:
+```bash
+git clone https://github.com/yourusername/background-snippets.git
+cd background-snippets
+```
+Install dependencies:
+```bash
+npm install
+```
+Run the development server:
 
 ```bash
 npm run dev
