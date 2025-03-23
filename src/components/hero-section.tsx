@@ -70,7 +70,7 @@ export default function HeroSection() {
                   preset="fade-in-blur"
                   speedSegment={0.3}
                   as="h1"
-                  className="mt-8 text-balance text-6xl md:text-7xl lg:mt-16 xl:text-[5.25rem] text-white drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]"
+                  className="mt-8 text-balance text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-[5.25rem] text-white drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]"
                 >
                   Background Snippets
                 </TextEffect>
@@ -81,7 +81,7 @@ export default function HeroSection() {
                   speedSegment={0.3}
                   delay={0.5}
                   as="p"
-                  className="mx-auto mt-8 max-w-2xl text-balance text-lg text-white/90 drop-shadow-[0_1px_3px_rgba(0,0,0,0.9)] font-bold"
+                  className="mx-auto mt-8 max-w-2xl text-balance text-base sm:text-lg text-white/90 drop-shadow-[0_1px_3px_rgba(0,0,0,0.9)] font-bold px-4 sm:px-0"
                 >
                   Ready to use, simply copy and paste into your next project.
                   All snippets crafted with Tailwind CSS.
